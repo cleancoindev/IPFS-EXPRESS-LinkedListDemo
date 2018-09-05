@@ -14,6 +14,8 @@ app.use(morgan('dev'));
 //routes go here
 app.use('/api', require('./apiRoutes'));
 
+
+
 app.get('*', function(req, res, next) {
 	res.sendFile(path.join(__dirname, '../dist/index.html'));
 });
