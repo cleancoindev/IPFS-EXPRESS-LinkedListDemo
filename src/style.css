@@ -1,4 +1,28 @@
 .hello {
-  color: red;
-  background: urk('./donut.jpg');
+	color: red;
+	background: urk('./donut.jpg');
+}
+
+#valueInput {
+	margin: 10px;
+}
+
+#space {
+	margin: 15px;
+}
+
+.mainApp {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+}
+
+.form {
+	margin: 15px;
+}
+
+.history {
+	margin: 15px;
 }
